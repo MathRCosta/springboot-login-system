@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<div class="card">
+    <h2>Dashboard</h2>
+
+    <div class="form-group">
+        <p style="text-align: center; font-size: 15px; color: #555;">
+            Bem-vindo! Login realizado com sucesso.
+        </p>
+    </div>
+
+    <div class="link" style="text-align: center;">
+        <a th:href="@{/login}">Sair</a>
+    </div>
+</div>
+
+</body>
+</html>
