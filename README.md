@@ -58,4 +58,4 @@ Configuração manual de DataSource e Hibernate:
 1. Clonar o repositório:
 
 ```bash
-git clone https://github.com/MathRCosta/springboot-authentication-system.git
+git clone https://github.com/MathRCosta/springboot-login-system.git
